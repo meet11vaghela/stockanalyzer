@@ -1,0 +1,937 @@
+{
+  "RELIANCE.NS": {
+    "company": "Reliance Industries",
+    "analysis": {
+      "ticker": "RELIANCE.NS",
+      "timestamp": "2025-11-25T16:54:39.152727",
+      "overall_rating": "HOLD",
+      "overall_score": 66.5,
+      "technical_analysis": {
+        "rsi": 75.11316382775786,
+        "macd": 27.53055242772166,
+        "sma_50": 1443.782009277344,
+        "sma_200": 1378.7491589355486,
+        "bb_upper": 1553.4317921284858,
+        "bb_lower": 1460.1682078715246,
+        "signals": [
+          "RSI Overbought (Sell Signal)",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 60
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 25.06022,
+        "market_cap": 20836715069440,
+        "dividend_yield": 0.36,
+        "score": 80,
+        "findings": [
+          "Moderate P/E ratio",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (36.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.1988441397257116,
+        "max_drawdown": -0.12196779765404198,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for RELIANCE.NS:\nRecommendation: HOLD (Score: 66.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 75.11, RSI Overbought (Sell Signal)\nFundamental: P/E 25.06022, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "TCS.NS": {
+    "company": "Tata Consultancy Services",
+    "analysis": {
+      "ticker": "TCS.NS",
+      "timestamp": "2025-11-25T16:54:40.130658",
+      "overall_rating": "HOLD",
+      "overall_score": 60.5,
+      "technical_analysis": {
+        "rsi": 69.79743359939923,
+        "macd": 30.902609971554284,
+        "sma_50": 3037.5824755859444,
+        "sma_200": 3284.5862841796898,
+        "bb_upper": 3184.6558297435154,
+        "bb_lower": 2961.2741751392946,
+        "signals": [
+          "RSI Neutral",
+          "Price below 200 SMA (Bearish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 40
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 22.82787,
+        "market_cap": 11285538275328,
+        "dividend_yield": 1.97,
+        "score": 80,
+        "findings": [
+          "Moderate P/E ratio",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (197.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.20059642732442037,
+        "max_drawdown": -0.3344139270381623,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for TCS.NS:\nRecommendation: HOLD (Score: 60.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 69.80, RSI Neutral\nFundamental: P/E 22.82787, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "HDFCBANK.NS": {
+    "company": "HDFC Bank",
+    "analysis": {
+      "ticker": "HDFCBANK.NS",
+      "timestamp": "2025-11-25T16:54:41.105857",
+      "overall_rating": "BUY",
+      "overall_score": 72.5,
+      "technical_analysis": {
+        "rsi": 53.294705718597136,
+        "macd": 2.9749370742197243,
+        "sma_50": 982.614000244144,
+        "sma_200": 948.3871133422866,
+        "bb_upper": 1006.7366652863315,
+        "bb_lower": 977.7433334929789,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 22.61883,
+        "market_cap": 15222864609280,
+        "dividend_yield": 1.1,
+        "score": 80,
+        "findings": [
+          "Moderate P/E ratio",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (110.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.1588084108134928,
+        "max_drawdown": -0.1292640386640469,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for HDFCBANK.NS:\nRecommendation: BUY (Score: 72.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 53.29, RSI Neutral\nFundamental: P/E 22.61883, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "INFY.NS": {
+    "company": "Infosys",
+    "analysis": {
+      "ticker": "INFY.NS",
+      "timestamp": "2025-11-25T16:54:41.960172",
+      "overall_rating": "BUY",
+      "overall_score": 72.5,
+      "technical_analysis": {
+        "rsi": 62.57521064856432,
+        "macd": 16.476328711262568,
+        "sma_50": 1483.974492187502,
+        "sma_200": 1530.2345935058597,
+        "bb_upper": 1567.1140081737742,
+        "bb_lower": 1451.546013798876,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 21.63698,
+        "market_cap": 6345152528384,
+        "dividend_yield": 2.91,
+        "score": 80,
+        "findings": [
+          "Moderate P/E ratio",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (291.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.25119066644221244,
+        "max_drawdown": -0.30152018682295545,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for INFY.NS:\nRecommendation: BUY (Score: 72.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 62.58, RSI Neutral\nFundamental: P/E 21.63698, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "ICICIBANK.NS": {
+    "company": "ICICI Bank",
+    "analysis": {
+      "ticker": "ICICIBANK.NS",
+      "timestamp": "2025-11-25T16:54:43.023458",
+      "overall_rating": "HOLD",
+      "overall_score": 56.5,
+      "technical_analysis": {
+        "rsi": 57.385174008559325,
+        "macd": -0.9441107977156662,
+        "sma_50": 1375.3520043945362,
+        "sma_200": 1375.1844842529306,
+        "bb_upper": 1395.202504309541,
+        "bb_lower": 1324.7975323115788,
+        "signals": [
+          "RSI Neutral",
+          "Price below 200 SMA (Bearish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 40
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 18.375965,
+        "market_cap": 9705521938432,
+        "dividend_yield": 0.8,
+        "score": 70,
+        "findings": [
+          "Moderate P/E ratio",
+          "Good Dividend Yield (80.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.1637609066513218,
+        "max_drawdown": -0.11139583370458095,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for ICICIBANK.NS:\nRecommendation: HOLD (Score: 56.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 57.39, RSI Neutral\nFundamental: P/E 18.375965, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "HINDUNILVR.NS": {
+    "company": "Hindustan Unilever",
+    "analysis": {
+      "ticker": "HINDUNILVR.NS",
+      "timestamp": "2025-11-25T16:54:44.076514",
+      "overall_rating": "HOLD",
+      "overall_score": 66.5,
+      "technical_analysis": {
+        "rsi": 46.440461569413706,
+        "macd": -19.60343847126569,
+        "sma_50": 2484.5186474609345,
+        "sma_200": 2384.2281311035167,
+        "bb_upper": 2458.795645316694,
+        "bb_lower": 2396.9506193317243,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 52.140392,
+        "market_cap": 5672260861952,
+        "dividend_yield": 1.77,
+        "score": 65,
+        "findings": [
+          "High P/E ratio (> 30)",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (177.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.18172532773605318,
+        "max_drawdown": -0.13914323919213478,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for HINDUNILVR.NS:\nRecommendation: HOLD (Score: 66.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 46.44, RSI Neutral\nFundamental: P/E 52.140392, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "ITC.NS": {
+    "company": "ITC Limited",
+    "analysis": {
+      "ticker": "ITC.NS",
+      "timestamp": "2025-11-25T16:54:44.985765",
+      "overall_rating": "HOLD",
+      "overall_score": 60.5,
+      "technical_analysis": {
+        "rsi": 35.27273251870491,
+        "macd": -1.5849300196102263,
+        "sma_50": 407.5429980468801,
+        "sma_200": 411.26484069824187,
+        "bb_upper": 419.67371819807846,
+        "bb_lower": 397.46628119157157,
+        "signals": [
+          "RSI Neutral",
+          "Price below 200 SMA (Bearish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 40
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 24.89441,
+        "market_cap": 5021528752128,
+        "dividend_yield": 3.89,
+        "score": 80,
+        "findings": [
+          "Moderate P/E ratio",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (389.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.16895481868227105,
+        "max_drawdown": -0.1798743185854318,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for ITC.NS:\nRecommendation: HOLD (Score: 60.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 35.27, RSI Neutral\nFundamental: P/E 24.89441, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "SBIN.NS": {
+    "company": "State Bank of India",
+    "analysis": {
+      "ticker": "SBIN.NS",
+      "timestamp": "2025-11-25T16:54:45.948494",
+      "overall_rating": "BUY",
+      "overall_score": 72.5,
+      "technical_analysis": {
+        "rsi": 66.75258259017463,
+        "macd": 20.500747974858882,
+        "sma_50": 909.4819958496,
+        "sma_200": 811.8751150512679,
+        "bb_upper": 989.2699304989686,
+        "bb_lower": 932.0250524111615,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 10.9434805,
+        "market_cap": 9079234756608,
+        "dividend_yield": 1.64,
+        "score": 80,
+        "findings": [
+          "Undervalued P/E ratio (< 15)",
+          "Good Dividend Yield (164.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.18191636707834305,
+        "max_drawdown": -0.2059941963681089,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for SBIN.NS:\nRecommendation: BUY (Score: 72.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 66.75, RSI Neutral\nFundamental: P/E 10.9434805, Undervalued P/E ratio (< 15)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "BHARTIARTL.NS": {
+    "company": "Bharti Airtel",
+    "analysis": {
+      "ticker": "BHARTIARTL.NS",
+      "timestamp": "2025-11-25T16:54:47.009576",
+      "overall_rating": "HOLD",
+      "overall_score": 66.5,
+      "technical_analysis": {
+        "rsi": 58.13954445178123,
+        "macd": 41.31432679019372,
+        "sma_50": 2014.4740063476522,
+        "sma_200": 1866.9791217040981,
+        "bb_upper": 2194.4846598381137,
+        "bb_lower": 2005.7553792243662,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 33.5913,
+        "market_cap": 13166478098432,
+        "dividend_yield": 0.74,
+        "score": 65,
+        "findings": [
+          "High P/E ratio (> 30)",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (74.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.21299825683532408,
+        "max_drawdown": -0.08552461321437865,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for BHARTIARTL.NS:\nRecommendation: HOLD (Score: 66.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 58.14, RSI Neutral\nFundamental: P/E 33.5913, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "KOTAKBANK.NS": {
+    "company": "Kotak Mahindra Bank",
+    "analysis": {
+      "ticker": "KOTAKBANK.NS",
+      "timestamp": "2025-11-25T16:54:48.126939",
+      "overall_rating": "HOLD",
+      "overall_score": 60.5,
+      "technical_analysis": {
+        "rsi": 39.46319769082701,
+        "macd": -7.940912447752453,
+        "sma_50": 2100.022009277338,
+        "sma_200": 2072.8797473144527,
+        "bb_upper": 2134.418333626347,
+        "bb_lower": 2058.851637076794,
+        "signals": [
+          "RSI Neutral",
+          "Price below 200 SMA (Bearish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 40
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 22.1356,
+        "market_cap": 4116519583744,
+        "dividend_yield": 0.12,
+        "score": 80,
+        "findings": [
+          "Moderate P/E ratio",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (12.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.2279284465189593,
+        "max_drawdown": -0.14283341106189662,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for KOTAKBANK.NS:\nRecommendation: HOLD (Score: 60.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 39.46, RSI Neutral\nFundamental: P/E 22.1356, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "LT.NS": {
+    "company": "Larsen & Toubro",
+    "analysis": {
+      "ticker": "LT.NS",
+      "timestamp": "2025-11-25T16:54:49.142052",
+      "overall_rating": "HOLD",
+      "overall_score": 62.5,
+      "technical_analysis": {
+        "rsi": 62.200518934323355,
+        "macd": 48.56759684643839,
+        "sma_50": 3844.001992187504,
+        "sma_200": 3550.4649926757784,
+        "bb_upper": 4071.379102062656,
+        "bb_lower": 3881.0308832889123,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 33.52936,
+        "market_cap": 5497784107008,
+        "dividend_yield": 0.85,
+        "score": 55,
+        "findings": [
+          "High P/E ratio (> 30)",
+          "Good Dividend Yield (85.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.2186193410686923,
+        "max_drawdown": -0.22626859969365354,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for LT.NS:\nRecommendation: HOLD (Score: 62.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 62.20, RSI Neutral\nFundamental: P/E 33.52936, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "AXISBANK.NS": {
+    "company": "Axis Bank",
+    "analysis": {
+      "ticker": "AXISBANK.NS",
+      "timestamp": "2025-11-25T16:54:50.078948",
+      "overall_rating": "BUY",
+      "overall_score": 72.5,
+      "technical_analysis": {
+        "rsi": 69.40376425494135,
+        "macd": 19.474236580213528,
+        "sma_50": 1204.248005371088,
+        "sma_200": 1136.565808105466,
+        "bb_upper": 1284.9721220065846,
+        "bb_lower": 1201.8278779933955,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 15.16527,
+        "market_cap": 3930189725696,
+        "dividend_yield": 0.08,
+        "score": 80,
+        "findings": [
+          "Moderate P/E ratio",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (8.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.2102496146079061,
+        "max_drawdown": -0.19961171869817307,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for AXISBANK.NS:\nRecommendation: BUY (Score: 72.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 69.40, RSI Neutral\nFundamental: P/E 15.16527, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "BAJFINANCE.NS": {
+    "company": "Bajaj Finance",
+    "analysis": {
+      "ticker": "BAJFINANCE.NS",
+      "timestamp": "2025-11-25T16:54:50.964953",
+      "overall_rating": "HOLD",
+      "overall_score": 66.5,
+      "technical_analysis": {
+        "rsi": 36.478229355565475,
+        "macd": -10.207389530344244,
+        "sma_50": 1030.06100219726,
+        "sma_200": 928.2447247314424,
+        "bb_upper": 1083.923240979529,
+        "bb_lower": 977.0617626825511,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 33.521416,
+        "market_cap": 6129366073344,
+        "dividend_yield": 0.44,
+        "score": 65,
+        "findings": [
+          "High P/E ratio (> 30)",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (44.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.2673223074815753,
+        "max_drawdown": -0.1190746558365634,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for BAJFINANCE.NS:\nRecommendation: HOLD (Score: 66.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 36.48, RSI Neutral\nFundamental: P/E 33.521416, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "ASIANPAINT.NS": {
+    "company": "Asian Paints",
+    "analysis": {
+      "ticker": "ASIANPAINT.NS",
+      "timestamp": "2025-11-25T16:54:51.976656",
+      "overall_rating": "HOLD",
+      "overall_score": 56.5,
+      "technical_analysis": {
+        "rsi": 87.13497755695188,
+        "macd": 111.56768839469942,
+        "sma_50": 2536.449140625,
+        "sma_200": 2393.1686450195334,
+        "bb_upper": 3046.848571833958,
+        "bb_lower": 2379.1317992597924,
+        "signals": [
+          "RSI Overbought (Sell Signal)",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 60
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 70.83252,
+        "market_cap": 2756855201792,
+        "dividend_yield": 0.87,
+        "score": 55,
+        "findings": [
+          "High P/E ratio (> 30)",
+          "Good Dividend Yield (87.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.2003021120733948,
+        "max_drawdown": -0.14886219246138865,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for ASIANPAINT.NS:\nRecommendation: HOLD (Score: 56.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 87.13, RSI Overbought (Sell Signal)\nFundamental: P/E 70.83252, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "MARUTI.NS": {
+    "company": "Maruti Suzuki",
+    "analysis": {
+      "ticker": "MARUTI.NS",
+      "timestamp": "2025-11-25T16:54:53.154236",
+      "overall_rating": "HOLD",
+      "overall_score": 60.5,
+      "technical_analysis": {
+        "rsi": 72.48908296943232,
+        "macd": 1.3485745321177092,
+        "sma_50": 15965.76,
+        "sma_200": 13376.743979492188,
+        "bb_upper": 16262.153050881112,
+        "bb_lower": 15279.646949118887,
+        "signals": [
+          "RSI Overbought (Sell Signal)",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 60
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 33.751804,
+        "market_cap": 4995542417408,
+        "dividend_yield": 0.85,
+        "score": 65,
+        "findings": [
+          "High P/E ratio (> 30)",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (85.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.20560876404261288,
+        "max_drawdown": -0.13776308976867346,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for MARUTI.NS:\nRecommendation: HOLD (Score: 60.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 72.49, RSI Overbought (Sell Signal)\nFundamental: P/E 33.751804, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "TITAN.NS": {
+    "company": "Titan Company",
+    "analysis": {
+      "ticker": "TITAN.NS",
+      "timestamp": "2025-11-25T16:54:54.021575",
+      "overall_rating": "HOLD",
+      "overall_score": 66.5,
+      "technical_analysis": {
+        "rsi": 56.238759585470255,
+        "macd": 63.15589157344766,
+        "sma_50": 3651.4540039062476,
+        "sma_200": 3458.33395019531,
+        "bb_upper": 3940.588949849451,
+        "bb_lower": 3708.6810452677396,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 82.92321,
+        "market_cap": 3419648294912,
+        "dividend_yield": 0.28,
+        "score": 65,
+        "findings": [
+          "High P/E ratio (> 30)",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (28.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.21018211455769178,
+        "max_drawdown": -0.1697612381843432,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for TITAN.NS:\nRecommendation: HOLD (Score: 66.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 56.24, RSI Neutral\nFundamental: P/E 82.92321, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "WIPRO.NS": {
+    "company": "Wipro",
+    "analysis": {
+      "ticker": "WIPRO.NS",
+      "timestamp": "2025-11-25T16:54:55.012993",
+      "overall_rating": "HOLD",
+      "overall_score": 60.5,
+      "technical_analysis": {
+        "rsi": 62.65573970602408,
+        "macd": 0.57309925459694,
+        "sma_50": 244.48320007324196,
+        "sma_200": 254.04368637085295,
+        "bb_upper": 248.55628223225338,
+        "bb_lower": 236.33171825602662,
+        "signals": [
+          "RSI Neutral",
+          "Price below 200 SMA (Bearish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 40
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 19.10109,
+        "market_cap": 2572570066944,
+        "dividend_yield": 4.45,
+        "score": 80,
+        "findings": [
+          "Moderate P/E ratio",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (445.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.25419603980035443,
+        "max_drawdown": -0.26610249782526063,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for WIPRO.NS:\nRecommendation: HOLD (Score: 60.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 62.66, RSI Neutral\nFundamental: P/E 19.10109, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "HCLTECH.NS": {
+    "company": "HCL Technologies",
+    "analysis": {
+      "ticker": "HCLTECH.NS",
+      "timestamp": "2025-11-25T16:54:55.931885",
+      "overall_rating": "BUY",
+      "overall_score": 72.5,
+      "technical_analysis": {
+        "rsi": 63.66741836726052,
+        "macd": 33.072690629043564,
+        "sma_50": 1503.768295898438,
+        "sma_200": 1542.2857440185524,
+        "bb_upper": 1657.1590764239954,
+        "bb_lower": 1494.4209284588146,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 25.560345,
+        "market_cap": 4337869258752,
+        "dividend_yield": 2.98,
+        "score": 80,
+        "findings": [
+          "Moderate P/E ratio",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (298.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.2557672185223266,
+        "max_drawdown": -0.3042752101854317,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for HCLTECH.NS:\nRecommendation: BUY (Score: 72.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 63.67, RSI Neutral\nFundamental: P/E 25.560345, Moderate P/E ratio\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "ULTRACEMCO.NS": {
+    "company": "UltraTech Cement",
+    "analysis": {
+      "ticker": "ULTRACEMCO.NS",
+      "timestamp": "2025-11-25T16:54:56.986780",
+      "overall_rating": "HOLD",
+      "overall_score": 50.5,
+      "technical_analysis": {
+        "rsi": 38.13306852035749,
+        "macd": -127.38595817465648,
+        "sma_50": 12076.54,
+        "sma_200": 11792.018759765626,
+        "bb_upper": 12077.057642575432,
+        "bb_lower": 11565.442357424568,
+        "signals": [
+          "RSI Neutral",
+          "Price below 200 SMA (Bearish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 40
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 46.712383,
+        "market_cap": 3406077100032,
+        "dividend_yield": 0.67,
+        "score": 55,
+        "findings": [
+          "High P/E ratio (> 30)",
+          "Good Dividend Yield (67.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.21381385376107098,
+        "max_drawdown": -0.16182273659839652,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for ULTRACEMCO.NS:\nRecommendation: HOLD (Score: 50.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 38.13, RSI Neutral\nFundamental: P/E 46.712383, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  },
+  "NESTLEIND.NS": {
+    "company": "Nestle India",
+    "analysis": {
+      "ticker": "NESTLEIND.NS",
+      "timestamp": "2025-11-25T16:54:58.027223",
+      "overall_rating": "HOLD",
+      "overall_score": 66.5,
+      "technical_analysis": {
+        "rsi": 48.64044550166975,
+        "macd": 8.976439414162087,
+        "sma_50": 1234.18599609375,
+        "sma_200": 1178.7608160400396,
+        "bb_upper": 1282.7417136114964,
+        "bb_lower": 1258.5282448846037,
+        "signals": [
+          "RSI Neutral",
+          "Price above 200 SMA (Bullish Trend)",
+          "MACD Bearish"
+        ],
+        "score": 80
+      },
+      "fundamental_analysis": {
+        "pe_ratio": 82.23958,
+        "market_cap": 2435846504448,
+        "dividend_yield": 1.58,
+        "score": 65,
+        "findings": [
+          "High P/E ratio (> 30)",
+          "Forward P/E lower than Trailing P/E (Expected Growth)",
+          "Good Dividend Yield (158.00%)",
+          "Large Cap Company (Stability)"
+        ]
+      },
+      "sentiment_analysis": {
+        "sentiment_score": 50,
+        "confidence": 0.0,
+        "article_count": 0,
+        "top_headlines": []
+      },
+      "risk_assessment": {
+        "annualized_volatility": 0.19451503912026624,
+        "max_drawdown": -0.1188223073785748,
+        "risk_level": "Medium"
+      },
+      "summary": "Investment Report for NESTLEIND.NS:\nRecommendation: HOLD (Score: 66.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 48.64, RSI Neutral\nFundamental: P/E 82.23958, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+    }
+  }
+}

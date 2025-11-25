@@ -1,12 +1,12 @@
 {
   "AAPL": {
     "ticker": "AAPL",
-    "timestamp": "2025-11-25T16:32:53.161510",
+    "timestamp": "2025-11-25T16:46:44.919508",
     "overall_rating": "HOLD",
     "overall_score": 62.0,
     "technical_analysis": {
       "rsi": 60.332919152535304,
-      "macd": 3.4764545889117358,
+      "macd": 3.4764545889118494,
       "sma_50": 260.078067321776,
       "sma_200": 226.066347198486,
       "bb_upper": 275.352693736513,
@@ -37,22 +37,22 @@
       "top_headlines": []
     },
     "risk_assessment": {
-      "annualized_volatility": 0.32742781605855864,
-      "max_drawdown": -0.3336052279512892,
+      "annualized_volatility": 0.32742781369163676,
+      "max_drawdown": -0.333605227951289,
       "risk_level": "High"
     },
     "summary": "Investment Report for AAPL:\nRecommendation: HOLD (Score: 62.00/100)\nRisk Level: High\nTechnical Outlook: RSI at 60.33, RSI Neutral\nFundamental: P/E 37.036243, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
   },
   "MSFT": {
     "ticker": "MSFT",
-    "timestamp": "2025-11-25T16:32:54.501634",
+    "timestamp": "2025-11-25T16:46:46.347284",
     "overall_rating": "HOLD",
     "overall_score": 69.5,
     "technical_analysis": {
       "rsi": 26.968986103369502,
-      "macd": -9.748348608898937,
+      "macd": -9.748348569870245,
       "sma_50": 511.149843750002,
-      "sma_200": 465.277393951419,
+      "sma_200": 465.277391967774,
       "bb_upper": 541.547059632047,
       "bb_lower": 468.0170455925629,
       "signals": [
@@ -81,22 +81,22 @@
       "top_headlines": []
     },
     "risk_assessment": {
-      "annualized_volatility": 0.2445347082960981,
-      "max_drawdown": -0.2182569404118948,
+      "annualized_volatility": 0.24453466679502864,
+      "max_drawdown": -0.21825692564753185,
       "risk_level": "Medium"
     },
     "summary": "Investment Report for MSFT:\nRecommendation: HOLD (Score: 69.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 26.97, RSI Oversold (Buy Signal)\nFundamental: P/E 33.664772, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
   },
   "GOOGL": {
     "ticker": "GOOGL",
-    "timestamp": "2025-11-25T16:32:55.696822",
+    "timestamp": "2025-11-25T16:46:47.808920",
     "overall_rating": "HOLD",
     "overall_score": 52.0,
     "technical_analysis": {
       "rsi": 72.5792272143847,
-      "macd": 11.206993644273155,
+      "macd": 11.206993644238366,
       "sma_50": 263.72440002441397,
-      "sma_200": 199.79168518066203,
+      "sma_200": 199.791685714721,
       "bb_upper": 306.04711144377995,
       "bb_lower": 264.62888953278014,
       "signals": [
@@ -124,8 +124,8 @@
       "top_headlines": []
     },
     "risk_assessment": {
-      "annualized_volatility": 0.33337671782863393,
-      "max_drawdown": -0.2980586984941008,
+      "annualized_volatility": 0.3333768181013069,
+      "max_drawdown": -0.2980587505616469,
       "risk_level": "High"
     },
     "summary": "Investment Report for GOOGL:\nRecommendation: HOLD (Score: 52.00/100)\nRisk Level: High\nTechnical Outlook: RSI at 72.58, RSI Overbought (Sell Signal)\nFundamental: P/E 31.44916, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
