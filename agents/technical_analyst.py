@@ -1,4 +1,3 @@
-import talib
 import pandas as pd
 import numpy as np
 from agents.base_agent import BaseAgent
@@ -32,20 +31,26 @@ class TechnicalAnalystAgent(BaseAgent):
             high_prices = df['High'].values
             low_prices = df['Low'].values
 
-            # Calculate Indicators
-            # 1. RSI
-            rsi = talib.RSI(close_prices, timeperiod=14)
-            current_rsi = rsi[-1]
+            # Calculate Indicators (without TA-Lib)
+            # 1. RSI (Simple implementation)
+            current_rsi = self._calculate_rsi(close_prices)
 
-            # 2. MACD
-            macd, macdsignal, macdhist = talib.MACD(close_prices, fastperiod=12, slowperiod=26, signalperiod=9)
+            # 2. MACD (Simple implementation)
+            macd, macdsignal = self._calculate_macd(close_prices)
             
             # 3. Moving Averages
-            sma_50 = talib.SMA(close_prices, timeperiod=50)
-            sma_200 = talib.SMA(close_prices, timeperiod=200)
+            sma_50 = np.mean(close_prices[-50:]) if len(close_prices) >= 50 else np.mean(close_prices)
+            sma_200 = np.mean(close_prices[-200:]) if len(close_prices) >= 200 else np.mean(close_prices)
             
             # 4. Bollinger Bands
-            upper, middle, lower = talib.BBANDS(close_prices, timeperiod=20, nbdevup=2, nbdevdn=2, matype=0)
+            bb_period = 20
+            if len(close_prices) >= bb_period:
+                sma = np.mean(close_prices[-bb_period:])
+                std = np.std(close_prices[-bb_period:])
+                upper = sma + (2 * std)
+                lower = sma - (2 * std)
+            else:
+                upper = lower = np.mean(close_prices)
 
             # Signals
             signals = []
@@ -53,30 +58,28 @@ class TechnicalAnalystAgent(BaseAgent):
                 signals.append("RSI Oversold (Buy Signal)")
             elif current_rsi > 70:
                 signals.append("RSI Overbought (Sell Signal)")
+            else:
+                signals.append("RSI Neutral")
 
-            if close_prices[-1] > sma_200[-1]:
+            if close_prices[-1] > sma_200:
                 signals.append("Price above 200 SMA (Bullish Trend)")
             else:
                 signals.append("Price below 200 SMA (Bearish Trend)")
 
-            if macd[-1] > macdsignal[-1]:
+            if macd > macdsignal:
                 signals.append("MACD Bullish Crossover")
-            
-            # Pattern Recognition (Simple example: Engulfing)
-            engulfing = talib.CDLENGULFING(df['Open'].values, high_prices, low_prices, close_prices)
-            if engulfing[-1] != 0:
-                pattern_type = "Bullish" if engulfing[-1] > 0 else "Bearish"
-                signals.append(f"{pattern_type} Engulfing Pattern Detected")
+            else:
+                signals.append("MACD Bearish")
 
             analysis_result = {
                 "rsi": float(current_rsi),
-                "macd": float(macd[-1]),
-                "sma_50": float(sma_50[-1]),
-                "sma_200": float(sma_200[-1]),
-                "bb_upper": float(upper[-1]),
-                "bb_lower": float(lower[-1]),
+                "macd": float(macd),
+                "sma_50": float(sma_50),
+                "sma_200": float(sma_200),
+                "bb_upper": float(upper),
+                "bb_lower": float(lower),
                 "signals": signals,
-                "score": self._calculate_technical_score(current_rsi, close_prices[-1], sma_200[-1], macd[-1], macdsignal[-1])
+                "score": self._calculate_technical_score(current_rsi, close_prices[-1], sma_200, macd, macdsignal)
             }
 
             self.save_to_memory(f"technical_{ticker}", analysis_result)
@@ -86,6 +89,50 @@ class TechnicalAnalystAgent(BaseAgent):
         except Exception as e:
             self.log(f"Error in technical analysis: {e}")
             return {"error": str(e)}
+
+    def _calculate_rsi(self, prices, period=14):
+        """Simple RSI calculation"""
+        if len(prices) < period + 1:
+            return 50.0
+        
+        deltas = np.diff(prices)
+        gains = np.where(deltas > 0, deltas, 0)
+        losses = np.where(deltas < 0, -deltas, 0)
+        
+        avg_gain = np.mean(gains[-period:])
+        avg_loss = np.mean(losses[-period:])
+        
+        if avg_loss == 0:
+            return 100.0
+        
+        rs = avg_gain / avg_loss
+        rsi = 100 - (100 / (1 + rs))
+        return rsi
+
+    def _calculate_macd(self, prices):
+        """Simple MACD calculation"""
+        if len(prices) < 26:
+            return 0.0, 0.0
+        
+        ema_12 = self._ema(prices, 12)
+        ema_26 = self._ema(prices, 26)
+        macd = ema_12 - ema_26
+        signal = self._ema(np.array([macd]), 9)
+        
+        return macd, signal
+
+    def _ema(self, prices, period):
+        """Exponential Moving Average"""
+        if len(prices) < period:
+            return np.mean(prices)
+        
+        multiplier = 2 / (period + 1)
+        ema = np.mean(prices[:period])
+        
+        for price in prices[period:]:
+            ema = (price * multiplier) + (ema * (1 - multiplier))
+        
+        return ema
 
     def _calculate_technical_score(self, rsi, price, sma200, macd, macd_signal):
         score = 50

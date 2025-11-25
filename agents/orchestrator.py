@@ -1,4 +1,4 @@
-                    from agents.base_agent import BaseAgent
+from agents.base_agent import BaseAgent
 from agents.data_fetcher import DataFetcherAgent
 from agents.technical_analyst import TechnicalAnalystAgent
 from agents.fundamental_analyst import FundamentalAnalystAgent
