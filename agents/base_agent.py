@@ -1,5 +1,6 @@
 from core.adk_core import Agent
 from core.state_manager import StateManager
+from typing import Any
 import logging
 
 class BaseAgent(Agent):

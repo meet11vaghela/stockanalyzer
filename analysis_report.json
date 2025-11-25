@@ -1,0 +1,133 @@
+{
+  "AAPL": {
+    "ticker": "AAPL",
+    "timestamp": "2025-11-25T16:32:53.161510",
+    "overall_rating": "HOLD",
+    "overall_score": 62.0,
+    "technical_analysis": {
+      "rsi": 60.332919152535304,
+      "macd": 3.4764545889117358,
+      "sma_50": 260.078067321776,
+      "sma_200": 226.066347198486,
+      "bb_upper": 275.352693736513,
+      "bb_lower": 265.26916600469707,
+      "signals": [
+        "RSI Neutral",
+        "Price above 200 SMA (Bullish Trend)",
+        "MACD Bearish"
+      ],
+      "score": 80
+    },
+    "fundamental_analysis": {
+      "pe_ratio": 37.036243,
+      "market_cap": 4094760583168,
+      "dividend_yield": 0.38,
+      "score": 65,
+      "findings": [
+        "High P/E ratio (> 30)",
+        "Forward P/E lower than Trailing P/E (Expected Growth)",
+        "Good Dividend Yield (38.00%)",
+        "Large Cap Company (Stability)"
+      ]
+    },
+    "sentiment_analysis": {
+      "sentiment_score": 50,
+      "confidence": 0.0,
+      "article_count": 0,
+      "top_headlines": []
+    },
+    "risk_assessment": {
+      "annualized_volatility": 0.32742781605855864,
+      "max_drawdown": -0.3336052279512892,
+      "risk_level": "High"
+    },
+    "summary": "Investment Report for AAPL:\nRecommendation: HOLD (Score: 62.00/100)\nRisk Level: High\nTechnical Outlook: RSI at 60.33, RSI Neutral\nFundamental: P/E 37.036243, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+  },
+  "MSFT": {
+    "ticker": "MSFT",
+    "timestamp": "2025-11-25T16:32:54.501634",
+    "overall_rating": "HOLD",
+    "overall_score": 69.5,
+    "technical_analysis": {
+      "rsi": 26.968986103369502,
+      "macd": -9.748348608898937,
+      "sma_50": 511.149843750002,
+      "sma_200": 465.277393951419,
+      "bb_upper": 541.547059632047,
+      "bb_lower": 468.0170455925629,
+      "signals": [
+        "RSI Oversold (Buy Signal)",
+        "Price above 200 SMA (Bullish Trend)",
+        "MACD Bearish"
+      ],
+      "score": 90
+    },
+    "fundamental_analysis": {
+      "pe_ratio": 33.664772,
+      "market_cap": 3523320741888,
+      "dividend_yield": 0.77,
+      "score": 65,
+      "findings": [
+        "High P/E ratio (> 30)",
+        "Forward P/E lower than Trailing P/E (Expected Growth)",
+        "Good Dividend Yield (77.00%)",
+        "Large Cap Company (Stability)"
+      ]
+    },
+    "sentiment_analysis": {
+      "sentiment_score": 50,
+      "confidence": 0.0,
+      "article_count": 0,
+      "top_headlines": []
+    },
+    "risk_assessment": {
+      "annualized_volatility": 0.2445347082960981,
+      "max_drawdown": -0.2182569404118948,
+      "risk_level": "Medium"
+    },
+    "summary": "Investment Report for MSFT:\nRecommendation: HOLD (Score: 69.50/100)\nRisk Level: Medium\nTechnical Outlook: RSI at 26.97, RSI Oversold (Buy Signal)\nFundamental: P/E 33.664772, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+  },
+  "GOOGL": {
+    "ticker": "GOOGL",
+    "timestamp": "2025-11-25T16:32:55.696822",
+    "overall_rating": "HOLD",
+    "overall_score": 52.0,
+    "technical_analysis": {
+      "rsi": 72.5792272143847,
+      "macd": 11.206993644273155,
+      "sma_50": 263.72440002441397,
+      "sma_200": 199.79168518066203,
+      "bb_upper": 306.04711144377995,
+      "bb_lower": 264.62888953278014,
+      "signals": [
+        "RSI Overbought (Sell Signal)",
+        "Price above 200 SMA (Bullish Trend)",
+        "MACD Bearish"
+      ],
+      "score": 60
+    },
+    "fundamental_analysis": {
+      "pe_ratio": 31.44916,
+      "market_cap": 3858679726080,
+      "dividend_yield": 0.26,
+      "score": 55,
+      "findings": [
+        "High P/E ratio (> 30)",
+        "Good Dividend Yield (26.00%)",
+        "Large Cap Company (Stability)"
+      ]
+    },
+    "sentiment_analysis": {
+      "sentiment_score": 50,
+      "confidence": 0.0,
+      "article_count": 0,
+      "top_headlines": []
+    },
+    "risk_assessment": {
+      "annualized_volatility": 0.33337671782863393,
+      "max_drawdown": -0.2980586984941008,
+      "risk_level": "High"
+    },
+    "summary": "Investment Report for GOOGL:\nRecommendation: HOLD (Score: 52.00/100)\nRisk Level: High\nTechnical Outlook: RSI at 72.58, RSI Overbought (Sell Signal)\nFundamental: P/E 31.44916, High P/E ratio (> 30)\nSentiment: Score 50.00 based on 0 articles."
+  }
+}
